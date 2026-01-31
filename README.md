@@ -1,5 +1,4 @@
 # Java-DSA-Daily
-# Java-DSA-Daily 🚀
 
 This repository contains my daily Java problem-solving practice.
 I am consistently solving Data Structures & Algorithms problems to improve logic building and prepare for technical interviews.
