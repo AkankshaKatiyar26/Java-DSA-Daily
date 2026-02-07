@@ -67,7 +67,7 @@ public class problem6 {
         List<List<Integer>> result=tree.zigzagLevel(tree.root);
         System.out.println("answer:");
         for(int i=0;i<result.size();i++){
-            System.out.println(result.get(i));
+            System.out.print(result.get(i));
         }
         
     }
