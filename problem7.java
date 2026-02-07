@@ -10,8 +10,16 @@ public class problem7 {
             char ch=s.charAt(i);
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
+        int maxfreq=0;
+        char max=' ';
        for( char ch:map.keySet()){
-        System.out.println(ch+"->"+map.get(ch));
+        if(map.get(ch)>maxfreq){
+            maxfreq=map.get(ch);
+            max=ch;
+        }
        }
+        System.out.println(max+"->"+maxfreq);
+       
+
     }
 }
