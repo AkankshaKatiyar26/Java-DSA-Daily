@@ -27,4 +27,3 @@ public class problem10 {
 
     }
 }
-// count subarrays sum=k
