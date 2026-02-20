@@ -16,9 +16,7 @@ public class problem12 {
             }
             st.push(j);
         }
-        while(!st.isEmpty()){
-            arr[st.pop()]=-1;
-        }
+       
         System.out.println(Arrays.toString(arr));
     }
     
