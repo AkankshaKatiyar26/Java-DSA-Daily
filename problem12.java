@@ -1,4 +1,4 @@
-// Monotnic Stack-Next Smaller Element
+// Monotnic Stack-Next Smaller Element4
 import java.util.*;
 public class problem12 {
     public static void main(String[] args) {
