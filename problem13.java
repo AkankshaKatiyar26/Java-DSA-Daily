@@ -13,7 +13,7 @@ public class problem13 {
         for(int i=0;i<n;i++){
             pq.add(nums[i]);
         }
-        for(int i=0;i<k;i++){
+        for(int i=1;i<k;i++){
             pq.poll();
         }
         System.out.println(pq.peek());
