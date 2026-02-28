@@ -1,3 +1,4 @@
+// Greedy approach Activity Selection problem.
 import java.util.*;
 public class problem16{
     public static int Activity(int[] a,int[] b){
