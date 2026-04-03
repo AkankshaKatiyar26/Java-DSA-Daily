@@ -18,7 +18,7 @@ public class problem {
 
         }
         for(int i=0;i<v;i++){
-            System.out.println(i+"->");
+            System.out.print(i+"->");
             for(int node : graph.get(i))
                 System.out.print(node + " ");
             System.out.println();
