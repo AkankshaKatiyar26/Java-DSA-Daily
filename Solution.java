@@ -19,7 +19,7 @@ public class Solution{
             Node curr=q.poll();
             if(curr.x==target[0] && curr.y==target[1]){
                 return curr.steps;
-            }
+            }nqt
             for(int i=0;i<8;i++){
                 int newX=curr.x+dx[i];
                 int newY=curr.y+dy[i];
